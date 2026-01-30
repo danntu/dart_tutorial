@@ -6,6 +6,7 @@ void main(List<String> arguments) {
   if (arguments.isEmpty) {
     print('Hello dart');
   } else if (arguments.first == 'version') {
+    print(cli.calculate());
     print('Dartpedia CLI version $version');
   }
 }
